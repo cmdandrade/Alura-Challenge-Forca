@@ -1,0 +1,113 @@
+
+header {
+
+	padding: 40px;
+	background: #F3F5FC	
+}
+
+
+.caixa {
+	/* Logo */
+	width: 120px;
+	height: 48px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.botoes{
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 24px;
+
+	position: absolute;
+	width: 688px;
+	height: 67px;
+	left: 376px;
+	top: 904px;
+}
+
+
+
+#novoJogo{
+	/* Button */
+
+
+	/* Auto layout */
+
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+
+	width: 332px;
+	height: 67px;
+
+	/* Dark blue/dark-blue-300 */
+
+	background: #0A3871;
+	border-radius: 24px;
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	/* White */
+
+	color: #FFFFFF;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+
+#desistir{
+	/* Button */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 332px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+}
